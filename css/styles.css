@@ -2,10 +2,8 @@
 body{
   justify-content: center;
   align-content: center;
-  background-color: rgb(108, 169, 255);
-  color:white;
-  padding: 0;
-  margin: 0;
+  background-color: rgb(24, 8, 56);
+  color:rgb(188, 134, 34);
 }
 
 header {
@@ -30,16 +28,24 @@ nav {
   flex-direction: column;
 }
 
-.img { 
+.imga { 
   width: 250px;
   height: 200px;
 }
 
 .imgdiv {
+  gap: 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;  
-  align-items: center;
+  align-items: center;      
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+.img{
+  max-width: 200px;
+  max-height: 200px;
 }
 
 footer{
@@ -67,7 +73,7 @@ footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: 2.5rem;
   text-align: center;
-  color: black;
+  color: rgb(255, 0, 0);
 }
 
 .mainh1{
