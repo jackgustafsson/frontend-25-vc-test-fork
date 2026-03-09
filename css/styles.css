@@ -4,7 +4,27 @@ body{
   align-content: center;
   background-color: grey;
   color:white;
+  padding: 0;
+  margin: 0;
 }
+
+header {
+  background-color: white;
+  height: 3rem;
+  
+}
+
+nav {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
 .flex{
   display: flex;
   flex-direction: column;
@@ -21,15 +41,13 @@ img {
 .imgdiv {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;  
-  align-items: center;      
-  width: 200px;
-  height: 200px;
+  align-items: center;
 }
 
 .imgdiv img {
-  width: 100%;
+  width: 100px;
+  height: 200px;
 }
 footer{
   justify-items: center;
@@ -38,7 +56,6 @@ footer{
 @media screen and (max-width:1024px)  {
 .imgdiv{
   width: 20%;
-
 }
 
 .text{
