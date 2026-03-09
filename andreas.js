@@ -1,3 +1,5 @@
-while (true) {
-   alert('hello world')
-}
+// while (true) {
+//    alert('hello world')
+// }
+
+alert('Hello world!')
