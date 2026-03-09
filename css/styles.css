@@ -1,3 +1,4 @@
+
 body{
   justify-content: center;
   align-content: center;
@@ -8,6 +9,15 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+img { 
+  width: 200px;
+  height: 200px;
+}
+
+.imgdiv{
+  justify-self: center;
+}
 .imgdiv {
   display: flex;
   flex-direction: row;
@@ -16,6 +26,10 @@ body{
   align-items: center;      
   width: 200px;
   height: 200px;
+}
+
+.imgdiv img {
+  width: 100%;
 }
 footer{
   justify-items: center;
@@ -49,4 +63,14 @@ footer{
   font-size: 3rem;
   color: red;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.button-link {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
