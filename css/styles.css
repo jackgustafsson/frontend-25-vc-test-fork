@@ -57,6 +57,10 @@ footer{
   background-color: black;
   gap: 8px;
 }
+.icon{
+  width: 20px;
+  height: auto;
+}
 
 @media screen and (max-width:650px)  {
 .imgdiv{
